@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+1. .git directory is created 
+2. so we can do version control by git
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans: Staging area 不是一個實體的存在 是一個觀念上存在，用來讓每次的
+     commit 符合"每次只進行一種邏輯的修改"
+
+How can you use the staging area to make sure you have one commit per logical chang?
+Ans: once I make a logical change, "git add" it to a statge, then commit it with clear message, 
+then I can move on to next logical I want to do.
+
+
